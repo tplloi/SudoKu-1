@@ -146,7 +146,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    inner class Cell(context: Context?, x: Int, y: Int) :
+    inner class Cell(context: Context, x: Int, y: Int) :
         AppCompatTextView(context) {
         init {
             textAlignment = View.TEXT_ALIGNMENT_CENTER

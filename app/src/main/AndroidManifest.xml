@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.kian.sudoku">
-    
+
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
@@ -15,6 +15,7 @@
         <!--menu activity-->
         <activity
             android:name=".MenuActivity"
+            android:exported="true"
             android:noHistory="true"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme">
@@ -26,6 +27,7 @@
         <!--main game activity-->
         <activity
             android:name=".MainActivity"
+            android:exported="true"
             android:noHistory="true"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme">
@@ -36,6 +38,7 @@
         <!--stats activity-->
         <activity
             android:name=".StatsActivity"
+            android:exported="true"
             android:noHistory="true"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme">
